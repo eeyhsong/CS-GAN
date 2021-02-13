@@ -1,7 +1,7 @@
 # CS-GAN
 Paper:
-Common Spatial Generative Adversarial Networks based Data Augmentation for Cross-Subject Brain-Computer Interfacet
+*Common Spatial Generative Adversarial Networks based Data Augmentation for Cross-Subject Brain-Computer Interface*
 
 Abstract: The cross-subject application of EEG-based brain-computer interface (BCI) has always been limited by large individual difference and complex characteristics that are difficult to perceive. Therefore, it takes a long time to collect the training data of each user for calibration. Even transfer learning method pre-training with amounts of subject-independent data cannot decode different EEG signal categories without enough subject-specific data. Hence, we proposed a cross-subject EEG classification framework with a generative adversarial networks (GANs) based method named common spatial GAN (CS-GAN), which used adversarial training between a generator and a discriminator to obtain high-quality data for augmentation. A particular module in the discriminator was employed to maintain the spatial features of the EEG signals and increase the difference between different categories, with two losses for further enhancement. Through adaptive training with sufficient augmentation data, our cross-subject classification accuracy yielded a significant improvement of 15.85% than leave-one subject-out (LOO) test and 8.57% than just adapting 100 original samples on the dataset 2a of BCI competition IV. Moreover, We designed a convolutional neural networks (CNNs) based classification method as a benchmark with a similar spatial enhancement idea, which achieved remarkable results to classify motor imagery EEG data. In summary, our framework provides a promising way to deal with the cross-subject problem and promote the practical application of BCI.
 
-URL: https://arxiv.org/abs/2102.04456
+URL: https://arxiv.org/pdf/2102.04456.pdf
